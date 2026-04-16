@@ -1,0 +1,16 @@
+src/main/kotlin
+ ├─ Application.kt
+ ├─ controller
+ │   └─ UserController.kt
+ ├─ service
+ │   └─ UserService.kt
+ ├─ dto
+ │   ├─ UserRequestDto.kt
+ │   └─ UserResponseDto.kt
+ ├─ exception
+ │   ├─ UserNotFoundException.kt
+ │   └─ GlobalExceptionHandler.kt
+ └─ repository (Spring Data JPA 인터페이스가 자동 생성돼 있음)
+src/test/kotlin
+ └─ controller
+     └─ UserControllerTest.kt
