@@ -1,0 +1,3 @@
+@SpringBootApplication
+@EnableJpaAuditing
+class YourAppApplication
