@@ -1,0 +1,34 @@
+src
+ └── main
+     └── java
+         └── com
+             └── example
+                 └── demo
+                     ├── DemoApplication.java
+                     ├── controller
+                     │     └── UserController.java
+                     ├── dto
+                     │     ├── UserDto.java
+                     │     └── UserResponseDto.java
+                     ├── entity
+                     │     └── User.java
+                     ├── exception
+                     │     ├── GlobalExceptionHandler.java
+                     │     └── ResourceNotFoundException.java
+                     ├── repository
+                     │     └── UserRepository.java
+                     ├── service
+                     │     ├── UserService.java
+                     │     └── UserServiceImpl.java
+                     └── DemoApplication.java
+     └── resources
+         ├── application.yml
+         └── schema.sql
+ └── test
+     └── java
+         └── com
+             └── example
+                 └── demo
+                     └── controller
+                         └── UserControllerTest.java
+ pom.xml
