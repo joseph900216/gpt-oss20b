@@ -1,0 +1,9 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: false   # 외부 접근 차단
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
