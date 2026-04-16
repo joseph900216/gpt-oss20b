@@ -1,0 +1,6 @@
+src/main/kotlin/com/example/user/
+├── controller/      # Web Layer (Request/Response handling)
+├── service/         # Business Layer (Logic)
+├── repository/      # Data Access Layer (DB interaction)
+├── domain/          # Entity Layer (Data models)
+└── dto/             # Data Transfer Objects (Input/Output models)
